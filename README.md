@@ -9,17 +9,16 @@ Each top-level directory is a provider. Each subdirectory within a provider is a
 ```
 moltbot-skills/
 ├── bankr/                        # Bankr (first-party)
-│   └── bankr/                    # Full Bankr agent skill
-│       ├── SKILL.md
-│       ├── references/
-│       │   ├── token-trading.md
-│       │   ├── leverage-trading.md
-│       │   ├── polymarket.md
-│       │   ├── automation.md
-│       │   ├── token-deployment.md
-│       │   └── ...
-│       └── scripts/
-│           └── bankr.sh
+│   ├── SKILL.md
+│   ├── references/
+│   │   ├── token-trading.md
+│   │   ├── leverage-trading.md
+│   │   ├── polymarket.md
+│   │   ├── automation.md
+│   │   ├── token-deployment.md
+│   │   └── ...
+│   └── scripts/
+│       └── bankr.sh
 │
 ├── base/                         # Base (placeholder)
 │   └── SKILL.md
@@ -33,7 +32,7 @@ moltbot-skills/
 
 | Provider | Skill | Description |
 |----------|-------|-------------|
-| [bankr](https://bankr.bot) | [bankr](bankr/bankr/) | AI-powered crypto trading agent via natural language. Trade, manage portfolios, automate DeFi operations. |
+| [bankr](https://bankr.bot) | [bankr](bankr/) | AI-powered crypto trading agent via natural language. Trade, manage portfolios, automate DeFi operations. |
 | base | — | Placeholder |
 | neynar | — | Placeholder |
 | zapper | — | Placeholder |
