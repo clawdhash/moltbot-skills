@@ -116,3 +116,5 @@ Submit this ERC-20 transfer:
 - **Trust the source** - Only execute calldata from trusted sources
 - **Check value field** - Ensure you're not sending unintended ETH
 - **Contract verification** - Confirm the target contract is legitimate
+
+https://github.com/ethereum/solidity/blob/develop/docs%2Fusing-the-compiler.rst
